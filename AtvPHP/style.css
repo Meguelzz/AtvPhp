@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Benne, sans-serif;
+    text-align: center;
+    padding: 1rem;
+    background-color: #317dc4;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: Benne, sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.divAll {
+    display: flex;
+}
+
+.divParagrafos {
+    width: 60rem;
+}
+
+aside {
+    margin-left: 15rem;
+    padding: 1rem;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+aside img {
+    border: 5px solid;
+    border-radius: 50px;
+    border-color: #317dc4;
+    padding: 15px;
+    align-content: center;
+}
+
+.img1 {
+    margin-bottom: 10rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.img2  {
+    object-fit: cover;
+    object-position: bottom;
+}
+
+p {
+    font-family: Benne, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding: 1rem;
+    margin-left: 2rem;
+}
