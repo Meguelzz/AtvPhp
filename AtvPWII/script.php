@@ -1,4 +1,6 @@
-class pessoa {
+<?php
+echo
+'class pessoa {
     constructor(nome, idade) {
         this.nome = nome;
         this.idade = idade;
@@ -46,4 +48,6 @@ class professor extends pessoa {
 }
 
 pessoa3 = new professor("Luiz", 38, 110, "Desenvolvimento de Sistemas");
-console.log(pessoa3.falar());
+console.log(pessoa3.falar());'
+
+?>
